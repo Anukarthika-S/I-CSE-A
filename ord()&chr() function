@@ -1,0 +1,6 @@
+#ord() & chr() function
+string="R"
+print(ord(string))
+num=82
+print(chr(num))
+
