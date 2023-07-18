@@ -1,0 +1,17 @@
+#string concatenation
+#using + method
+var1="Hello"
+var2="World"
+var3=var1+ var2
+print(var3)
+#using join method
+var3=" ".join([var1,var2])
+print(var3)
+#using comma method
+print(var1,var2)
+#using % method
+var3="%s %s "%(var1,var2)
+print(var3)
+#using format method
+var3="{} {}".format(var1,var2)
+print(var3)
